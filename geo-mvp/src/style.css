@@ -1,0 +1,3 @@
+html, body, #root { height: 100%; margin: 0; background: #eef2f7; }
+button { cursor: pointer; }
+input, select, button { font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial; }
