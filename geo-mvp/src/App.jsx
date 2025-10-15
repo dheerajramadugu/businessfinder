@@ -77,9 +77,7 @@ export default function App() {
     });
     if (error) setErr(error.message);
     setResults(data ?? []);
-    setLoading(false);
-  console.log('RUN SEARCH center:', pos, 'radius:', radius, 'units:', units);
-  
+    setLoading(false);  
   }
 
   // Simple demo: resolve a few known place centroids locally (no geocoder yet)
